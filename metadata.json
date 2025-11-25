@@ -1,0 +1,5 @@
+{
+  "name": "HunterOS - Bug Bounty Toolkit",
+  "description": "A comprehensive, all-in-one frontend workspace for bug bounty hunters, featuring report templates, payload generators, encoding tools, and resource aggregation.",
+  "requestFramePermissions": []
+}
