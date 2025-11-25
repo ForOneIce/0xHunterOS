@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cyber-900 text-cyber-text antialiased;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-cyber-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-cyber-700 rounded;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-cyber-600;
+}

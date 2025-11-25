@@ -2,51 +2,47 @@
 
 **Project**: HunterOS  
 **Version**: 1.2.0  
-**Status**: Feature Complete
+**Status**: Ready for Deployment
 
 ## ✅ Completed Features
 
-1.  **Core UI Framework**:
-    *   Cyber-themed Sidebar and Layout.
-    *   Responsive Grid system.
-    *   Multi-language support (English/Chinese) optimized.
+1.  **Core Architecture**:
+    *   Migrated to Vite + Tailwind CSS structure.
+    *   Configured for GitHub Pages deployment (`gh-pages`).
+    *   Multi-language support (English/Chinese).
 
-2.  **Target Operations (New)**:
-    *   Replaced static dashboard with functional Project Manager.
-    *   Create/Delete targets implemented.
-    *   Status tracking and Notes implemented.
-    *   LocalStorage persistence working.
+2.  **Target Operations**:
+    *   Fully functional Project Manager.
+    *   Create/Read/Update/Delete targets.
+    *   LocalStorage persistence.
 
 3.  **Report Writer**:
-    *   Template switching implemented.
-    *   **Custom Templates**: Create and Save functionality (localStorage) implemented.
-    *   Live Preview implemented.
-    *   Export to `.md` working.
-    *   Removed ineffective "Save Local" button.
+    *   Template switching & Custom Template saving.
+    *   Markdown Editor & Live Preview.
+    *   File Export.
 
 4.  **Cyber Tools**:
-    *   Smart Encoder (Base64, URL, Hex, Entity) fully functional.
-    *   JSON Formatter/Validator working.
-    *   **Diff Tool**: Line-by-line comparison implemented.
+    *   Smart Encoder (Base64, URL, Hex, Entity).
+    *   JSON Formatter/Validator.
+    *   **Diff Tool**: Implemented line-by-line comparison.
 
 5.  **Payload Generator**:
-    *   **Full Data Population**: Imported XSS vectors from 2020 Cheat Sheet (Basics, Advanced, Polyglots).
-    *   Search and Context filtering working.
-    *   Clipboard copy integration done.
+    *   Comprehensive XSS vector library.
+    *   Context filtering & Search.
 
 6.  **Knowledge Base**:
-    *   **Dedicated Page**: Implemented separate view for searching reports.
-    *   **Filtering**: Filter by Severity and Platform implemented.
+    *   Searchable Vulnerability Report archive.
+    *   Platform & Severity filtering.
 
-7.  **Resources**:
-    *   Tools Navigation (Resources) complete.
-    *   Prompt Library complete.
+7.  **Resources & Prompts**:
+    *   Tools Navigation complete.
+    *   AI Prompt Library complete.
 
-## 🚧 Pending / Future Improvements
+## 🚀 Deployment
 
-1.  **Advanced Diff**:
-    *   Current Diff is line-by-line. Character-level diffing could be added in future versions.
+The project is configured for one-step deployment to GitHub Pages using `npm run deploy`.
 
-2.  **Import/Export Data**:
-    *   Ability to export all Target Data and Custom Templates to a JSON file for backup.
-    *   Ability to import JSON files to populate the Knowledge Base or Payloads list dynamically.
+## 🔮 Future Roadmap
+
+1.  **Data Import/Export**: Backup all local data (Targets + Templates) to a JSON file.
+2.  **API Integration**: Optionally fetch live CVE data or RSS feeds in the Knowledge Base.
